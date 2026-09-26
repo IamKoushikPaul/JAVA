@@ -16,10 +16,11 @@ public class Arithmetic_Operator {
         result=num1/num2;
         System.out.println("The division of two number is: "+result);
 
-    */
+      */
 
         Scanner input = new Scanner(System.in);
         int num1,num2,result;
+        double result2;
         System.out.print("Enter your first number: ");
         num1=input.nextInt();
         System.out.print("Enter your second number: ");
@@ -31,9 +32,10 @@ public class Arithmetic_Operator {
         System.out.println("The subtraction of two number is: "+result);
         result=num1*num2;
         System.out.println("The multiplication of two number is: "+result);
-        result=num1/num2;
-        System.out.println("The division of two number is: "+result);
-
+        result2= (double) num1/num2;
+        System.out.println("The division of two number is: "+result2);
+        result=num1%num2;
+        System.out.println("The modulus of two number is: "+result);
 
         input.close();
 
